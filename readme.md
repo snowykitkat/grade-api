@@ -1,7 +1,7 @@
 # Lab 3: Grade API program
 
-**Please try to work through Tasks 0 and 1 ahead of your lab time on Monday.
-Your team and TA can help you during the lab if you had any trouble,
+**Please try to work through Tasks 0 and 1 ahead of your lab time.
+Your team and TA can help you during the lab if you have any trouble,
 so don't worry if you don't get through Task 1 before lab. There will also
 be some time to do this as your TA helps everyone get into teams.**
 
@@ -47,14 +47,14 @@ with `USERNAME` replaced with the username you want to use.
 Now that you have your API token, the last step is to get your program to use it. To do so, we
 are going to set an environment variable in the run configuration.
 
-Note: at this point you should be able to run the program, but it is possible that the Maven
-project didn't automatically build. If you have errors which won't let you run the code in the
+Note: at this point, you should be able to run the program, but it is possible that the Maven
+project didn't automatically build. If you have errors that won't let you run the code in the
 next step, you may need to reload the Maven project. You can do this by right-clicking on the
 `pom.xml` file in your project. In the context menu, choose `Maven -> reload project`. This should
 resolve any errors.
 
 8. Try running the main application (`src/main/java/app/gui/GUI`). When you start the program,
-you will see that it says your API Token is null (since we didn't set it yet).
+you will see that it says your API Token is null (since we haven't set it yet).
 Stop the program and go to `Run -> Edit Configurations...`.
 
 9. Open the Run Configuration for `GUI` and find the `Environment Variables:`
@@ -84,9 +84,9 @@ team members.
 1. Choose a team name. Make it something unique to your team, as other teams will also
 be picking team names and duplicate names aren't allowed.
 
-2. Have one member of your team form a team with the name your team chose.
+2. Have one member of your team complete this form with your group information: https://forms.office.com/r/CmZwheVzG0
 
-3. Each other member of the team should then join the team. Make sure you see the popup
+3. Each other member of the team should then join the team on Quercus. Make sure you see the popup
 confirming that you successfully joined the team.
 
 4. Try looking up the grade another team member entered for `207` using the `Get a Grade` menu.
@@ -105,34 +105,34 @@ enter requests as different users.
 ## Task 3: Coding a new feature
 
 While this program has some useful core functionality which is provided by the Grade API,
-there are certain things which the Grade API can't currently do.
+there are certain things that the Grade API can't currently do.
 
-1. As a team, brainstorm some potential additional features which this program could have.
+1. As a team, brainstorm some potential additional features that this program could have.
 Aim to come up with one feature per team member.
 
 2. For each feature, think about whether it is possible to implement, given the current functionality
 provided by the Grade API. If it isn't possible, identify what new capabilities would need to be added.
-And if it is possible, think about what the steps would need to be taken to implement the
+If it is possible, think about what steps would need to be taken to implement the
 feature in the program.
 
 3. You may have noticed that the functionality for `My Team -> Get Average Grade` isn't actually
 implemented yet (see the TODOs in the code). As a team, work to implement this feature and confirm
 that it works.
 
-Note: Your team can choose how you want to work on this part, but below is our suggestions.
+Note: Your team can choose how you want to work on this part, but below are our suggestions.
 
 Suggested logistics: One of you should invite the others to collaborate on their fork of the
 original repo on GitHub. You can do this in your repo on GitHub under `Settings -> Collaborators`.
 This will allow you to push branches to a common repo and then use pull requests to contribute
 your code and review.
 
-## Task 4 Bonus
+## Task 4 (If You Have Time)
 
 If your team finishes the above task and has extra time, we encourage you to go through
-the code base in more detail and think critically about the structure of the code. What
-strikes you as being good design? What feels like it could be improved or restructured to
+the code base in more detail and think critically about the code structure. What
+strikes you as being a good design? What feels like it could be improved or restructured to
 make the code better? How easy would it be to implement new functionality into the program?
 
-In lecture this week, we will finish our initial tour of Clean Architecture with a full
+In the lecture next week, we will finish our initial tour of Clean Architecture with a full
 example designed with Clean Architecture in mind. You might find it useful to revisit this
 code base after to see what parts align with Clean Architecture and which parts do not.
