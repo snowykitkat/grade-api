@@ -109,11 +109,15 @@ there are certain things that the Grade API can't currently do.
 
 1. As a team, brainstorm some potential additional features that this program could have.
 Aim to come up with one feature per team member.
+- GPA calculator.
+- All grades list.
 
 2. For each feature, think about whether it is possible to implement, given the current functionality
 provided by the Grade API. If it isn't possible, identify what new capabilities would need to be added.
 If it is possible, think about what steps would need to be taken to implement the
 feature in the program.
+- GPA calculator alright to implement, since it just requires changing the grades to a different scale.
+- For the all grades list, a new capability could be to include a table to show the courses and the grades.
 
 3. You may have noticed that the functionality for `My Team -> Get Average Grade` isn't actually
 implemented yet (see the TODOs in the code). As a team, work to implement this feature and confirm
